@@ -1,6 +1,9 @@
+## Sales and Marketing Applications
+1. 
+
 ## Prep for Service and Support Applications
 1. Configuration action should be performed to ensure every case gets assigned to a valid owner?
-  * Define the `Default Case Owner` in `Support Settings`
+   * Define the `Default Case Owner` in `Support Settings`
 2. What is a potential benefit of using Suggested Solutions?
   * Reduced support costs
 3. 
