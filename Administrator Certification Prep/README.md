@@ -1,5 +1,11 @@
 ## Sales and Marketing Applications
-1. 
+1. Custom fields in the Lead object can be mapped to what two types of fields?
+    * Custom opportunity
+    * Custom account
+2. Create a page layout, sales process, and record type for each type of sale.
+3. Create opportunity update reminders.
+4. What two objects can be related to campaign members?
+    * Leads and Contacts
 
 ## Prep for Service and Support Applications
 1. Configuration action should be performed to ensure every case gets assigned to a valid owner?
