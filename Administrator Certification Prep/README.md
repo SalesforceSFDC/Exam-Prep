@@ -24,3 +24,15 @@
 2. Lightning for Outlook
     * Link emails in MS Outlook to contacts, leads, accounts, opportunities and cases in Salesforce. 
     * Relate events to records within Salesforce.
+
+## Control Access to Records
+### Record-Level Security
+* The permissions on a record are always evaluated according to a combination of object-level, field-level, and record-level permissions.
+* When object-level permissions conflict with record-level permissions, the most restrictive settings win.
+
+* Org-wide defaults specify the default level of access users have to each other’s records.
+* Role hierarchies ensure managers have access to the same records as their subordinates. Each role in the hierarchy represents a level of data access that a user or group of users needs.
+* Sharing rules are automatic exceptions to org-wide defaults for particular groups of users, to give them access to records they don’t own or can’t normally see.
+* Manual sharing lets record owners give read and edit permissions to users who might not have access to the record any other way.
+*  a detail record automatically inherits the sharing setting of its parent
+* By default, a role hierarchy automatically grants access to records for users above the record owner in the hierarchy. 
