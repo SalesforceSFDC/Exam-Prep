@@ -36,3 +36,12 @@
 * Manual sharing lets record owners give read and edit permissions to users who might not have access to the record any other way.
 *  a detail record automatically inherits the sharing setting of its parent
 * By default, a role hierarchy automatically grants access to records for users above the record owner in the hierarchy. 
+
+## Define Sharing Rules 
+* sharing rules can never be stricter than your org-wide default settings. They just allow greater access for particular users.
+Each sharing rule has three components:
+   * Share which records?
+   * With which users? 
+   * What kind of access? - You can assign either Read-Only or Read/Write access.
+   
+Before creating a sharing rule, it’s important to set up the appropriate public group. A public group is a collection of individual users, other groups, individual roles or territories, and/or roles or territories with their subordinates that all have a function in common.
