@@ -17,7 +17,6 @@
    * Define the `Default Case Owner` in `Support Settings`
 2. What is a potential benefit of using Suggested Solutions?
     * Reduced support costs
-3. 
 
 ## Mobile Administration
 1. What option can be added to Outlook Publisher Layouts?
