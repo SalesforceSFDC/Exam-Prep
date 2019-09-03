@@ -45,3 +45,10 @@ Each sharing rule has three components:
    * What kind of access? - You can assign either Read-Only or Read/Write access.
    
 Before creating a sharing rule, it’s important to set up the appropriate public group. A public group is a collection of individual users, other groups, individual roles or territories, and/or roles or territories with their subordinates that all have a function in common.
+
+## Standard and Custom Objects
+Types of fields that can be controlling field in a field dependency:
+* Standard Checkbox
+* Custom Checkbox
+* Standard Picklist
+* Custom Picklist
