@@ -5,6 +5,7 @@
 Manager group sharing needs to be enabled on the Sharing Settings page.  Once selected, it can be used in manual sharing, sharing rules, and apex managed sharing.  Manager group sharing allows sharing with either the direct and indirect managers or direct and indirect reports of users.  
 The `Grant Access Using Hierarchies` checkbox should be deselected to ensure that the records are not shared throughout the role hierarchy.
 * Business processes should be created before the creation of record types.
+* When the sharing model is defined as private, users will only see the data to which they have access, as well as those below them in the Role Hierarchy if it is enabled.  They will not be able to see the data that their colleagues can see if they share the same role.
 ## Cases
 * If a case does not meet any assignment criteria, it is assigned to the default case owner which can be a user or a queue.
 
