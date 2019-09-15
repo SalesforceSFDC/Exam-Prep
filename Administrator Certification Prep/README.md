@@ -252,3 +252,8 @@ Profile Object settings include:
 * The role hierarchy and territory hierarchy can be used to provide data access through a hierarchical structure.
 * Sharing rules and exceptions to the organization wide defaults can add additional access to records based on certain criteria.
 * Manual sharing can be used by record owners and the Salesforce Admin to add additional access to records.
+* Internal and partner users can be added to an account team in Lightning Experience.  From the `Account Team` related list on the Account, either a team member or a default account team can be added.  
+   * Team members can be given `Read/Write` access to an account.  The related list must be added to the account page layout by an adminstrator to use this functionality.
+* `Sharing Button` is not available in Lightning Experience.
+* `Sharing Rule` cannot be used to grant access to specific users.
+* `Permission Set` can be used to grant additional access to objects, but it cannot be used to grant access to specific records of an object.
