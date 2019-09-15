@@ -223,3 +223,6 @@ Profile Object settings include:
 
 ## Sales and Marketing Applications
 * The Automated Account Fields feature is only available in Lightning Experience.  It displays US - based companies in the Account Name field as users enter information.  Users can select a suggested company from the list, making it easier to create new business accounts.  When a company is selected from a list, multiple fields are automatically filled.
+* Custom fields on the Lead object cannot be mapped on the Opportunity object, but they can be mapped to other custom fields.  A workflow filed update can be used to update the standard Description field on Opportunity records from the mapped custom field.
+* A formula field cannot use a custom field's value from a converted lead.  
+* A flow cannot be triggered automatically when a lead is converted.
