@@ -235,3 +235,7 @@ Profile Object settings include:
 * Roles are used to create a sharing hierarchy among users.
 * Sharing rules can never be stricter the the OW sharing defaults.
 * Only a custom piclist or multi-select picklist can be a dependent field in a field dependency.
+## Data Management
+* Either the 15 character case sensitive or 18 character case insensitive ID can be used with Data Loader.
+* Salesforce uses a case-sensitive 15 digit ID for all records.  As some applications such as Excel do not recognize that, a case safe 18 character ID was introduced.
+* An 18 character, case safe ID can be converted to a 15 character ID by removing the last 3 characters on the right side of the ID.
