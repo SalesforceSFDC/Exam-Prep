@@ -220,3 +220,6 @@ Profile Object settings include:
 * `ISCHANGED` function would only check whether the value of the Status field is changed.
 * Access to a Record can be removed using Process Builder and Flow.
 * PB and Flow can be used to grant additional access to a user group using a Share Object based on custom criteria.  
+
+## Sales and Marketing Applications
+* The Automated Account Fields feature is only available in Lightning Experience.  It displays US - based companies in the Account Name field as users enter information.  Users can select a suggested company from the list, making it easier to create new business accounts.  When a company is selected from a list, multiple fields are automatically filled.
