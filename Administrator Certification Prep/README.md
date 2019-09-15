@@ -228,7 +228,9 @@ Profile Object settings include:
 * A flow cannot be triggered automatically when a lead is converted.
 * The Controlled by Parent sharing setting should be used for the Contact object since it would grant account owners edit access to all related contacts regardless of who owns the contacts.  
 * Access to contacts can be specified with an OWD sharing setting.
-* `Controlled by Parent` - the access to the contacts will be controlled by the access 
+* `Controlled by Parent` - the access to the contacts will be controlled by the access the user has to the parent.
+* `Public Read/Write` - Using this setting would grant read/write access to all contacts for all users.
+* `Private` - If the sharing setting is set to private, a criteria based sharing rule would need to be used to give access based on the owner of the contact record.
 * Validation rule: Please provide at least phone number of email address: `if ( SupliedPhone = NULL && SuppliedEmail = NULL, True, False)`
 * Roles are used to create a sharing hierarchy among users.
 * Sharing rules can never be stricter the the OW sharing defaults.
