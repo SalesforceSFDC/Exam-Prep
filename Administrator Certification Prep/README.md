@@ -229,3 +229,7 @@ Profile Object settings include:
 * The Controlled by Parent sharing setting should be used for the Contact object since it would grant account owners edit access to all related contacts regardless of who owns the contacts.  
 * Access to contacts can be specified with an OWD sharing setting.
 * `Controlled by Parent` - the access to the contacts will be controlled by the access 
+* Validation rule: Please provide at least phone number of email address: `if ( SupliedPhone = NULL && SuppliedEmail = NULL, True, False)`
+* Roles are used to create a sharing hierarchy among users.
+* Sharing rules can never be stricter the the OW sharing defaults.
+* Only a custom piclist or multi-select picklist can be a dependent field in a field dependency.
