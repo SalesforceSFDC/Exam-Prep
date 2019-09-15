@@ -243,3 +243,5 @@ Profile Object settings include:
 ## Security
 * Network based security allows limits to be set on where users can login from and at what times.  It covers both IP range restrictions and profile based ip restrictions and login hours.
 * Authentication determines who can login.
+* Manual sharing can be used to add individual users and access but the role cannot be specified.  
+* Opportunity teams allow the role and access to be specified for each team member.
