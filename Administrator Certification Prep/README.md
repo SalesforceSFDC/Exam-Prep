@@ -247,4 +247,8 @@ Profile Object settings include:
 * Opportunity teams allow the role and access to be specified for each team member.
 * OWD are used to restrict access to records.  
 * Roles open up access vertically and not horizontally.
-* A criteria based sharing rule (sharing records based on role) 
+* A criteria based sharing rule (sharing records based on role) could be used to open up record access horizontally across the role hierarchy.
+* Profiles and permission sets can be used to control access to data by specifying the objects that a user can view, edit and create, but are not used to share record access.
+* The role hierarchy and territory hierarchy can be used to provide data access through a hierarchical structure.
+* Sharing rules and exceptions to the organization wide defaults can add additional access to records based on certain criteria.
+* Manual sharing can be used by record owners and the Salesforce Admin to add additional access to records.
