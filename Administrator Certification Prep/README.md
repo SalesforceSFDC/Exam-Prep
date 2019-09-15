@@ -245,3 +245,6 @@ Profile Object settings include:
 * Authentication determines who can login.
 * Manual sharing can be used to add individual users and access but the role cannot be specified.  
 * Opportunity teams allow the role and access to be specified for each team member.
+* OWD are used to restrict access to records.  
+* Roles open up access vertically and not horizontally.
+* A criteria based sharing rule (sharing records based on role) 
