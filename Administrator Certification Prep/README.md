@@ -227,3 +227,6 @@ Profile Object settings include:
 * A formula field cannot use a custom field's value from a converted lead.  
 * A flow cannot be triggered automatically when a lead is converted.
 * Validation rule: Please provide at least phone number of email address: `if ( SuupliedPhone = NULL && SuppliedEmail = NULL, True, False)`
+* Roles are used to create a sharing hierarchy among users.
+* Sharing rules can never be stricter the the OW sharing defaults.
+* Only a custom piclist or multi-select picklist can be a dependent field in a field dependency.
