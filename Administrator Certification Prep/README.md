@@ -239,3 +239,7 @@ Profile Object settings include:
 * Either the 15 character case sensitive or 18 character case insensitive ID can be used with Data Loader.
 * Salesforce uses a case-sensitive 15 digit ID for all records.  As some applications such as Excel do not recognize that, a case safe 18 character ID was introduced.
 * An 18 character, case safe ID can be converted to a 15 character ID by removing the last 3 characters on the right side of the ID.
+
+## Security
+* Network based security allows limits to be set on where users can login from and at what times.  It covers both IP range restrictions and profile based ip restrictions and login hours.
+* Authentication determines who can login.
