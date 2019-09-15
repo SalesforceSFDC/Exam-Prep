@@ -226,7 +226,6 @@ Profile Object settings include:
 * Custom fields on the Lead object cannot be mapped on the Opportunity object, but they can be mapped to other custom fields.  A workflow filed update can be used to update the standard Description field on Opportunity records from the mapped custom field.
 * A formula field cannot use a custom field's value from a converted lead.  
 * A flow cannot be triggered automatically when a lead is converted.
-* Validation rule: Please provide at least phone number of email address: `if ( SuupliedPhone = NULL && SuppliedEmail = NULL, True, False)`
-* Roles are used to create a sharing hierarchy among users.
-* Sharing rules can never be stricter the the OW sharing defaults.
-* Only a custom piclist or multi-select picklist can be a dependent field in a field dependency.
+* The Controlled by Parent sharing setting should be used for the Contact object since it would grant account owners edit access to all related contacts regardless of who owns the contacts.  
+* Access to contacts can be specified with an OWD sharing setting.
+* `Controlled by Parent` - the access to the contacts will be controlled by the access 
