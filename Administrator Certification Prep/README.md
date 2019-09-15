@@ -226,3 +226,4 @@ Profile Object settings include:
 * Custom fields on the Lead object cannot be mapped on the Opportunity object, but they can be mapped to other custom fields.  A workflow filed update can be used to update the standard Description field on Opportunity records from the mapped custom field.
 * A formula field cannot use a custom field's value from a converted lead.  
 * A flow cannot be triggered automatically when a lead is converted.
+* Validation rule: Please provide at least phone number of email address: `if ( SuupliedPhone = NULL && SuppliedEmail = NULL, True, False)`
