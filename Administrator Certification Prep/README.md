@@ -260,3 +260,4 @@ Profile Object settings include:
 ## Workflow Rules
 When a record is created and any time it is edited to subsequently meet the criteria - the workflow should run only when the record is edited and previously did not meet the evaluation criteria and now does meet the evaluation criteria.
 When a record is created and every time it is edited - every time it is edited and still meets the criteria.
+* `Workflow Rules` are evaluated after triggers, assignment rules and auto-response rules.
