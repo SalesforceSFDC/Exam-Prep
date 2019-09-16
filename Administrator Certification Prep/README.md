@@ -257,3 +257,6 @@ Profile Object settings include:
 * `Sharing Button` is not available in Lightning Experience.
 * `Sharing Rule` cannot be used to grant access to specific users.
 * `Permission Set` can be used to grant additional access to objects, but it cannot be used to grant access to specific records of an object.
+## Workflow Rules
+When a record is created and any time it is edited to subsequently meet the criteria - the workflow should run only when the record is edited and previously did not meet the evaluation criteria and now does meet the evaluation criteria.
+When a record is created and every time it is edited - every time it is edited and still meets the criteria.
